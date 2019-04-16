@@ -1,23 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Println("Hello World!")
-	foo()
-	fmt.Println("Turd Turd Turd")
-
-	for i := 0; i < 100; i++ {
-		if i%9 == 0 && i%2 != 0 {
-			fmt.Println(i)
-		}
-	}
-}
-
-func foo() {
-
-	fmt.Println("I'm in foo!")
-
+	x := 42
+	fmt.Println(x)
+	x = 41
+	fmt.Println(x)
+	y := 100 + 24
+	fmt.Println(y)
 }
 
 //Control flow:
