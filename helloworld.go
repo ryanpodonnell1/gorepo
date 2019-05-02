@@ -4,16 +4,11 @@ import (
 	"fmt"
 )
 
-func main() {
-	x := 42
-	fmt.Println(x)
-	x = 41
-	fmt.Println(x)
-	y := 100 + 24
-	fmt.Println(y)
-}
+var y = 42
+var z = "Shaken, not stirred"
 
-//Control flow:
-// (1) sequence
-// (2) Loop
-// (3) Conditional
+func main() {
+	fmt.Println(y)
+	fmt.Printf("%T\n", y)
+	fmt.Printf("%T\n", z)
+}
